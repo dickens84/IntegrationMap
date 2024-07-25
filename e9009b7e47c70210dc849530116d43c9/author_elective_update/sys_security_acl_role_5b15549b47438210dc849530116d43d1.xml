@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:28:33</sys_created_on>
+        <sys_id>5b15549b47438210dc849530116d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user</sys_name>
+        <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_security_acl display_value="x_1107936_cconnect_main_table">9b15549b47438210dc849530116d43ce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5b15549b47438210dc849530116d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:28:33</sys_updated_on>
+        <sys_user_role display_value="x_1107936_cconnect.main_table_user" name="x_1107936_cconnect.main_table_user">cf15d81b47438210dc849530116d4375</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_security_acl_role_5b15549b47438210dc849530116d43d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-02 11:28:33</sys_created_on><sys_id>5b15549b47438210dc849530116d43d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user</sys_name><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_security_acl display_value="x_1107936_cconnect_main_table">9b15549b47438210dc849530116d43ce</sys_security_acl><sys_update_name>sys_security_acl_role_5b15549b47438210dc849530116d43d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-02 11:28:33</sys_updated_on><sys_user_role display_value="x_1107936_cconnect.main_table_user" name="x_1107936_cconnect.main_table_user">cf15d81b47438210dc849530116d4375</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1619104315</payload_hash>
+        <record_name>x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user</record_name>
+        <reverted_from/>
+        <source>a25494d347438210dc849530116d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:28:33</sys_created_on>
+        <sys_id>9315549b47438210dc849530116d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19073341d4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:28:33</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9715549b73438210ec6dd1ffdc7b0ed3</update_guid>
+        <update_guid_history>9715549b73438210ec6dd1ffdc7b0ed3:1619104315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user">efa6d41f47438210dc849530116d43ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:35:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>210ddf3f00a74ef8969eba6f77864ee4</sys_id>
+        <sys_metadata>5b15549b47438210dc849530116d43d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent display_value="">9b15549b47438210dc849530116d43ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5b15549b47438210dc849530116d43d1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5b15549b47438210dc849530116d43d1">9315549b47438210dc849530116d43d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:35:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

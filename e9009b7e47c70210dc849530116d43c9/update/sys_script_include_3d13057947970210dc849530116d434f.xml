@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1107936_cconnect.OAuth2Util</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OAuth2Util</name>
+        <script><![CDATA[var OAuth2Util = Class.create();
+OAuth2Util.prototype = {
+    initialize: function(clientId, clientSecret, tokenUrl, grantType, userId, password, scope) {
+        this.clientId = clientId;
+        this.clientSecret = clientSecret;
+        this.tokenUrl = tokenUrl;
+        this.grantType = grantType;
+        this.userId = userId;
+        this.password = password;
+        this.scope = scope;
+
+    },
+    getAccessToken: function() {
+        var requestBody = null;
+        if (this.grantType === 'password') {
+            requestBody = {
+                'grant_type': this.grantType,
+                'username': this.userId,
+                'password': this.password,
+                'client_id': this.clientId,
+                'client_secret': this.clientSecret,
+                'scope': this.scope
+            };
+        } else if (this.grantType === 'client_credentials') {
+            requestBody = {
+                'grant_type': this.grantType,
+                'client_id': this.clientId,
+                'client_secret': this.clientSecret,
+                'scope': this.scope
+            };
+        }
+
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(this.tokenUrl);
+        request.setHttpMethod('POST');
+        request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+        var body = '';
+        for (var key in requestBody) {
+            if (requestBody.hasOwnProperty(key)) {
+                body += key + '=' + requestBody[key] + '&';
+            }
+        }
+        request.setRequestBody(body);
+        var response = request.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        if (httpStatus === 200) {
+            var tokenData = JSON.parse(responseBody);
+            return tokenData.access_token;
+        } else {
+            gs.error('Error fetching OAuth 2.0 token: ' + httpStatus + ' - ' + responseBody);
+            return null;
+        }
+    },
+
+    type: 'OAuth2Util'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 09:18:16</sys_created_on>
+        <sys_id>3d13057947970210dc849530116d434f</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>OAuth2Util</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_script_include_3d13057947970210dc849530116d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 09:27:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

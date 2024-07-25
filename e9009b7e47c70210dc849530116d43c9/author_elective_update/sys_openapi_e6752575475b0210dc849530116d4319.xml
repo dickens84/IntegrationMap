@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi">
+    <sys_openapi action="DELETE">
+        <description/>
+        <display_name>CConnectnowTest</display_name>
+        <name/>
+        <namespace/>
+        <serialized_openapi/>
+        <sys_class_name>sys_openapi</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:45:04</sys_created_on>
+        <sys_id>e6752575475b0210dc849530116d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CConnectnowTest</sys_name>
+        <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_openapi_e6752575475b0210dc849530116d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:45:04</sys_updated_on>
+        <version/>
+    </sys_openapi>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_openapi_e6752575475b0210dc849530116d4319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi"><sys_openapi action="INSERT_OR_UPDATE"><description/><display_name>CConnectnowTest</display_name><name/><namespace/><serialized_openapi/><sys_class_name>sys_openapi</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-10 11:45:04</sys_created_on><sys_id>e6752575475b0210dc849530116d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CConnectnowTest</sys_name><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_update_name>sys_openapi_e6752575475b0210dc849530116d4319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-10 11:45:04</sys_updated_on><version/></sys_openapi></record_update>]]></payload>
+        <payload_hash>-130418623</payload_hash>
+        <record_name>CConnectnowTest</record_name>
+        <reverted_from/>
+        <source>a25494d347438210dc849530116d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:45:04</sys_created_on>
+        <sys_id>d7956d71475b0210dc849530116d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1909c761b550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:45:04</sys_updated_on>
+        <type>OpenAPI </type>
+        <update_guid>db956d716d5b0210e3ba86205b9db8ad</update_guid>
+        <update_guid_history>db956d716d5b0210e3ba86205b9db8ad:-130418623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_openapi">sys_openapi</sys_db_object>
+        <sys_id>15c2d08a88174be19b7c96ea5e0f5d49</sys_id>
+        <sys_metadata>e6752575475b0210dc849530116d4319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CConnectnowTest</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>sys_openapi_e6752575475b0210dc849530116d4319</sys_update_name>
+        <sys_update_version display_value="sys_openapi_e6752575475b0210dc849530116d4319">d7956d71475b0210dc849530116d43ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping">
+    <oauth_entity_auth_scope_mapping action="DELETE">
+        <auth_scope display_value="useraccount">d67787c4c321011089a7dd5c2840dd6e</auth_scope>
+        <oauth_entity display_value="CConnectnowInt">169fcfdd47930210dc849530116d4370</oauth_entity>
+        <sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 06:24:53</sys_created_on>
+        <sys_id>9621d75147d30210dc849530116d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>oauth_entity_auth_scope_mapping_9621d75147d30210dc849530116d43f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-09 06:24:53</sys_updated_on>
+    </oauth_entity_auth_scope_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>oauth_entity_auth_scope_mapping_9621d75147d30210dc849530116d43f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping"><oauth_entity_auth_scope_mapping action="INSERT_OR_UPDATE"><auth_scope display_value="useraccount">d67787c4c321011089a7dd5c2840dd6e</auth_scope><oauth_entity display_value="CConnectnowInt">169fcfdd47930210dc849530116d4370</oauth_entity><sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-09 06:24:53</sys_created_on><sys_id>9621d75147d30210dc849530116d43f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_update_name>oauth_entity_auth_scope_mapping_9621d75147d30210dc849530116d43f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-09 06:24:53</sys_updated_on></oauth_entity_auth_scope_mapping></record_update>]]></payload>
+        <payload_hash>-780826271</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a25494d347438210dc849530116d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 06:24:53</sys_created_on>
+        <sys_id>23b2575d47930210dc849530116d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190962a9da60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-09 06:24:53</sys_updated_on>
+        <type>Auth Scopes</type>
+        <update_guid>27b2575d53930210278ec72fceda3ec9</update_guid>
+        <update_guid_history>27b2575d53930210278ec72fceda3ec9:-780826271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c2d2579147130210dc849530116d434f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-09 06:25:20</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_auth_scope_mapping">oauth_entity_auth_scope_mapping</sys_db_object>
+        <sys_id>36b79f508a1f4b88b13b41bdfa228d90</sys_id>
+        <sys_metadata>9621d75147d30210dc849530116d43f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>oauth_entity_auth_scope_mapping_9621d75147d30210dc849530116d43f7</sys_update_name>
+        <sys_update_version display_value="oauth_entity_auth_scope_mapping_9621d75147d30210dc849530116d43f7">23b2575d47930210dc849530116d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-09 06:25:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>base_url</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 03:23:21</sys_created_on>
+        <sys_id>f319b0f347030210dc849530116d43e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>base_url</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f319b0f347030210dc849530116d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 05:34:31</sys_updated_on>
+        <table>x_1107936_cconnect_config</table>
+        <ui_policy display_value="Hide a few fields when clicking 'New'">dd7874b347030210dc849530116d431f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f319b0f347030210dc849530116d43e4"/>
+</record_update>

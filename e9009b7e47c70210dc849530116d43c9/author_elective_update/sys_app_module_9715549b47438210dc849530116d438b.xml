@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="CConnectnow Integration">db15549b47438210dc849530116d4387</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Main Tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1107936_cconnect_main_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1107936_cconnect.main_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:28:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9715549b47438210dc849530116d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Main Tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_app_module_9715549b47438210dc849530116d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:28:32</sys_updated_on>
+        <timeline_page/>
+        <title>Main Tables</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_app_module_9715549b47438210dc849530116d438b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="CConnectnow Integration">db15549b47438210dc849530116d4387</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Main Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1107936_cconnect_main_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1107936_cconnect.main_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-02 11:28:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9715549b47438210dc849530116d438b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Main Tables</sys_name><sys_overrides/><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_update_name>sys_app_module_9715549b47438210dc849530116d438b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-02 11:28:32</sys_updated_on><timeline_page/><title>Main Tables</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1143605903</payload_hash>
+        <record_name>Main Tables</record_name>
+        <reverted_from/>
+        <source>a25494d347438210dc849530116d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:28:32</sys_created_on>
+        <sys_id>5b15549b47438210dc849530116d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19073341ae10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:28:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5f15549bff438210f23dd5feb690948d</update_guid>
+        <update_guid_history>5f15549bff438210f23dd5feb690948d:1143605903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Main Tables">77a6d41f47438210dc849530116d43fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:35:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>b1de313ce02d446aaf1963af420566c4</sys_id>
+        <sys_metadata>9715549b47438210dc849530116d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Main Tables</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>sys_app_module_9715549b47438210dc849530116d438b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9715549b47438210dc849530116d438b">5b15549b47438210dc849530116d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:35:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

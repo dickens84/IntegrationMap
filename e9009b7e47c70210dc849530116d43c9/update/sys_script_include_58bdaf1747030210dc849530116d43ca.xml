@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1107936_cconnect.CConnectNowInt</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CConnectNowInt</name>
+        <script><![CDATA[var CConnectNowInt = Class.create();
+CConnectNowInt.prototype = {
+    initialize: function() {},
+    getAttachment: function(tableSysId) {
+        var attachmentGr = new GlideRecord('sys_attachment');
+        attachmentGr.addEncodedQuery('table_sys_id=' + tableSysId);
+        attachmentGr.query();
+        if (attachmentGr.next()) {
+            var fileContent = '';
+            var is = new GlideSysAttachment().getContentStream(attachmentGr.sys_id);
+            var reader = new GlideTextReader(is);
+            var ln = ' ';
+            while ((ln = reader.readLine()) != null) {
+                fileContent += ln + '\n';
+            }
+            return fileContent;
+
+        } else {
+            return 'Attachment not found: ' + tableSysId;
+        }
+
+    },
+    setResources: function(fileContentObj, tableSysId) {
+        var resTable = new GlideRecord('x_1107936_cconnect_resources');
+        resTable.initialize();
+        var myObject = fileContentObj.paths;
+        Object.entries(myObject).forEach(function([key, value]) {
+            // Resource Path
+            resTable.resource_path = key;
+            if (typeof value === 'object' && value !== null) {
+                Object.entries(value).forEach(function([key, value]) {
+                    //Method
+                    resTable.http_method = key.toUpperCase();
+                    if (typeof value === 'object' && value !== null) {
+                        Object.entries(value).forEach(function([key, value]) {
+                            //Summary
+                            if (key === 'summary' && value !== null) {
+                                resTable.name = value;
+                            }
+                            if (key === 'parameters' && value !== null) {
+                                //Parameters
+                                var parm = '';
+                                for (let i = 0; i < value.length; i++) {
+                                    if (value[i].in === 'query') {
+                                        if (parm !== '')
+                                            parm += '&';
+                                        parm += value[i].name + '={' + value[i].name + '}';
+
+                                    }
+                                }
+                                resTable.parameters = parm;
+                            }
+
+                        });
+                    }
+                });
+            }
+
+            resTable.table_sys_id = tableSysId;
+            resTable.insert();
+        });
+    },
+    deleteAllByTableSysId: function(tableSysId) {
+        this.deleteResourcesByTableSysId(tableSysId);
+        this.deleteAttachmentByTableSysId(tableSysId);
+        this.deleteSchemasByTableSysId(tableSysId);
+    },
+    deleteResourcesByTableSysId: function(tableSysId) {
+        var resTable = new GlideRecord('x_1107936_cconnect_resources');
+        resTable.addEncodedQuery('table_sys_id=' + tableSysId);
+        resTable.query();
+        while (resTable.next()) {
+            resTable.deleteRecord();
+        }
+    },
+    deleteSchemasByTableSysId: function(tableSysId) {
+        var resTable = new GlideRecord('x_1107936_cconnect_components_schemas');
+        resTable.addEncodedQuery('table_sys_id=' + tableSysId);
+        resTable.query();
+        while (resTable.next()) {
+            resTable.deleteRecord();
+        }
+    },
+    deleteAttachmentByTableSysId: function(tableSysId) {
+        var attachmentGr = new GlideRecord('sys_attachment');
+        attachmentGr.addEncodedQuery('table_sys_id=' + tableSysId);
+        attachmentGr.query();
+        while (attachmentGr.next()) {
+            attachmentGr.deleteRecord();
+        }
+    },
+
+    convertJSONtoObject: function(fileContent) {
+        var obj = JSON.parse(fileContent);
+        return obj;
+    },
+    readAndSetSchema: function(components, tableSysId) {
+        for (var schemaName in components.schemas) {
+            var schema = components.schemas[schemaName];
+            var gr = new GlideRecord('x_1107936_cconnect_components_schemas');
+            gr.schema_name = schemaName;
+            gr.type = schema.type;
+
+            var properties = "";
+            var examples = "";
+            for (var propName in schema.properties) {
+                var prop = schema.properties[propName];
+                properties += propName + ": " + prop.type + "\n";
+                if (prop.example) {
+                    examples += propName + ": " + prop.example + "\n";
+                }
+            }
+
+            gr.properties = properties;
+            gr.example = examples;
+            gr.xml_name = schema.xml ? schema.xml.name : '';
+            gr.table_sys_id = tableSysId;
+            gr.insert();
+        }
+    },
+    type: 'CConnectNowInt'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:15:47</sys_created_on>
+        <sys_id>58bdaf1747030210dc849530116d43ca</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>CConnectNowInt</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_script_include_58bdaf1747030210dc849530116d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 09:33:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

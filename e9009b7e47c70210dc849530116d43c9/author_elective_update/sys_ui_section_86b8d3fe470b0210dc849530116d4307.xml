@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="86b8d3fe470b0210dc849530116d4307" sys_domain="global" table="x_1107936_cconnect_main" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-01 12:26:12</sys_created_on>
+            <sys_id>82b8d3fe470b0210dc849530116d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-01 12:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-01 12:26:12</sys_created_on>
+            <sys_id>02b8d3fe470b0210dc849530116d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-01 12:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>openapi_spec</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-01 12:26:12</sys_created_on>
+            <sys_id>86b8d3fe470b0210dc849530116d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-01 12:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>openapispec</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-01 12:35:18</sys_created_on>
+            <sys_id>d3cadf72474b0210dc849530116d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-01 12:35:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1107936_cconnect_main</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-01 12:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86b8d3fe470b0210dc849530116d4307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107936_cconnect_main</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+            <sys_update_name>sys_ui_section_86b8d3fe470b0210dc849530116d4307</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-01 12:26:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_ui_section_86b8d3fe470b0210dc849530116d4307</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="86b8d3fe470b0210dc849530116d4307" sys_domain="global" table="x_1107936_cconnect_main" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>title</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-01 12:26:12</sys_created_on><sys_id>82b8d3fe470b0210dc849530116d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-01 12:26:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-01 12:26:12</sys_created_on><sys_id>02b8d3fe470b0210dc849530116d4310</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-01 12:26:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>openapi_spec</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-01 12:26:12</sys_created_on><sys_id>86b8d3fe470b0210dc849530116d4310</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-01 12:26:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>openapispec</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-01 12:35:18</sys_created_on><sys_id>d3cadf72474b0210dc849530116d437e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1107936_cconnect_main" sys_domain="global" view="Default view">86b8d3fe470b0210dc849530116d4307</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-01 12:35:18</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1107936_cconnect_main</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-01 12:26:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>86b8d3fe470b0210dc849530116d4307</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107936_cconnect_main</sys_name><sys_overrides/><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_update_name>sys_ui_section_86b8d3fe470b0210dc849530116d4307</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-01 12:26:12</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-683470939</payload_hash>
+        <record_name>Main</record_name>
+        <reverted_from/>
+        <source>55249f3a470b0210dc849530116d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 12:35:18</sys_created_on>
+        <sys_id>57cadf72474b0210dc849530116d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906e4adc620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 12:35:18</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>dbcadf723a4b0210baec6e1af0a5627f</update_guid>
+        <update_guid_history>dbcadf723a4b0210baec6e1af0a5627f:-683470939,8ab8d3fe520b0210a032b65ec4530611:-1632052609,ceb8d3fee00b0210a9d61fb36a6c650a:907379958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 11:22:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>05167f3e0c724f7881adb54850bd6c84</sys_id>
+        <sys_metadata>86b8d3fe470b0210dc849530116d4307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_cconnect_main</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent display_value="">6a549fb2470b0210dc849530116d43e3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>sys_ui_section_86b8d3fe470b0210dc849530116d4307</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_86b8d3fe470b0210dc849530116d4307">57cadf72474b0210dc849530116d4380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 11:22:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

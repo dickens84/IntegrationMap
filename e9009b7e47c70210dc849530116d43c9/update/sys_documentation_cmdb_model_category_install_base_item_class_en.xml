@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="install_base_item_class" label="Install base item class" language="en" table="cmdb_model_category">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>install_base_item_class</element>
+            <help/>
+            <hint>Items of this category will be represented by an Install base item of this class</hint>
+            <label>Install base item class</label>
+            <language>en</language>
+            <name>cmdb_model_category</name>
+            <plural>Install base item class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-10 12:58:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Install base item class</sys_name>
+            <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+            <sys_update_name>sys_documentation_cmdb_model_category_install_base_item_class_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-10 12:58:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

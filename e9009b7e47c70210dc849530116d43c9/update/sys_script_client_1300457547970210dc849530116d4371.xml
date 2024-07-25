@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>authentication</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CConnectInt Security Onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var dropdownValueAuth = g_form.getValue('authentication');
+
+    // Perform actions based on the new value
+    if (dropdownValueAuth == 'Basic') {
+        g_form.setVisible('userid', true);
+        g_form.setVisible('password', true);
+        g_form.setVisible('client_id', false);
+        g_form.setVisible('client_secret', false);
+        g_form.setVisible('access_token_url', false);
+        g_form.setVisible('scope', false);
+        g_form.setVisible('grant_type', false);
+        g_form.setValue('another_field', 'value1');
+    } else if (dropdownValueAuth == 'OAuth2.0') {
+        g_form.setVisible('userid', true);
+        g_form.setVisible('password', true);
+        g_form.setVisible('client_id', true);
+        g_form.setVisible('client_secret', true);
+        g_form.setVisible('access_token_url', true);
+        g_form.setVisible('scope', true);
+        g_form.setVisible('grant_type', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 09:05:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1300457547970210dc849530116d4371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CConnectInt Security Onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_update_name>sys_script_client_1300457547970210dc849530116d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 09:10:43</sys_updated_on>
+        <table>x_1107936_cconnect_config</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

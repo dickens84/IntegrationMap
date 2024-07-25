@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Authentication" section_id="b00c1c5347838210dc849530116d43e7" sys_domain="global" table="x_1107936_cconnect_config" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>Authentication</caption>
+            <header>false</header>
+            <name>x_1107936_cconnect_config</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-02 11:58:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b00c1c5347838210dc849530116d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107936_cconnect_config</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope>
+            <sys_update_name>sys_ui_section_b00c1c5347838210dc849530116d43e7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-02 11:58:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_ui_section_b00c1c5347838210dc849530116d43e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Authentication" section_id="b00c1c5347838210dc849530116d43e7" sys_domain="global" table="x_1107936_cconnect_config" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>Authentication</caption><header>false</header><name>x_1107936_cconnect_config</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-02 11:58:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b00c1c5347838210dc849530116d43e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107936_cconnect_config</sys_name><sys_overrides/><sys_package display_value="CConnectnow Integration" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package><sys_policy/><sys_scope display_value="CConnectnow Integration">e9009b7e47c70210dc849530116d43c9</sys_scope><sys_update_name>sys_ui_section_b00c1c5347838210dc849530116d43e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-02 11:58:41</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>229372543</payload_hash>
+        <record_name>Config</record_name>
+        <reverted_from/>
+        <source>a25494d347438210dc849530116d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 12:23:33</sys_created_on>
+        <sys_id>4db1685b47838210dc849530116d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1907366762b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 12:23:33</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>05b1685bc1838210fa5ec4357a0bc8a1</update_guid>
+        <update_guid_history>05b1685bc1838210fa5ec4357a0bc8a1:229372543,50a0a85b46838210bc31d343bbdbe4b9:-484021782,0950685bc9838210963287e69178ee97:229372543,171cdcd304838210ebf5b595fe6d313c:-1174344244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 12:33:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>08e736d0758749a29dee1c3bb1d07ef9</sys_id>
+        <sys_metadata>b00c1c5347838210dc849530116d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authentication</sys_name>
+        <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
+        <sys_parent display_value="Config">6af6105f47438210dc849530116d4330</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
+        <sys_scope_delete display_value="">34c757dc3fb74421978de3e445307421</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b00c1c5347838210dc849530116d43e7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b00c1c5347838210dc849530116d43e7">4db1685b47838210dc849530116d43a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 12:33:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

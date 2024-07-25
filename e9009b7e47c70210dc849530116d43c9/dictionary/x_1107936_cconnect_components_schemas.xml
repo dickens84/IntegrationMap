@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="00cf2e8d47570210dc849530116d43cf" label="Components Schemas" max_length="40" name="x_1107936_cconnect_components_schemas" type="collection">
+        <element label="Properties" max_length="1000" name="properties" type="string"/>
+        <element label="XML Name" max_length="40" name="xml_name" type="string"/>
+        <element label="Table sys ID" max_length="100" name="table_sys_id" type="string"/>
+        <element label="Schema Name" max_length="40" name="schema_name" type="string"/>
+        <element label="Type" max_length="20" name="type" type="string"/>
+        <element label="Example" max_length="1000" name="example" type="string"/>
+    </element>
+</database>
