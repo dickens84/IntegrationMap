@@ -16,20 +16,24 @@ Test.prototype = {
 	{
 		return 'joyson';
 	},
-	
+	swapnil : function()
+	{
+		return 'swapnil';
+	},
     type: 'Test'
-};]]></script>
+};
+]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 05:49:47</sys_created_on>
         <sys_id>9f04574cc3f30e1437d1b7ddd401315f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
         <sys_update_name>sys_script_include_9f04574cc3f30e1437d1b7ddd401315f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-30 05:50:15</sys_updated_on>
+        <sys_updated_on>2024-07-30 05:53:54</sys_updated_on>
     </sys_script_include>
 </record_update>
