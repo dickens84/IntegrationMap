@@ -41,7 +41,7 @@
         <update_guid_history>9715549b73438210ec6dd1ffdc7b0ed3:1619104315</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1107936_cconnect_main_table.x_1107936_cconnect.main_table_user">efa6d41f47438210dc849530116d43ca</sys_audit_delete>
+        <sys_audit_delete display_value="">efa6d41f47438210dc849530116d43ca</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-02 11:35:24</sys_created_on>

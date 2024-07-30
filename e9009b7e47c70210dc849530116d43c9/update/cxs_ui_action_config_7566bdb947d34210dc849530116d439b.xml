@@ -13,10 +13,10 @@
         <current_table>sn_customerservice_case</current_table>
         <order>400</order>
         <rest_api/>
-        <search_res_config display_value="Resolved Cases">64f54a8793d02300a591f5be867ffb48</search_res_config>
+        <search_res_config display_value="">64f54a8793d02300a591f5be867ffb48</search_res_config>
         <search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource>
-        <search_ui_action display_value="Copy to clipboard">11ba97be77840010ec75945caa106175</search_ui_action>
-        <search_ui_config display_value="Case [sn_customerservice_case]">c5999c52c312310015519f2974d3aee9</search_ui_config>
+        <search_ui_action display_value="">11ba97be77840010ec75945caa106175</search_ui_action>
+        <search_ui_config display_value="">c5999c52c312310015519f2974d3aee9</search_ui_config>
         <show_on_new>false</show_on_new>
         <sys_class_name>cxs_ui_action_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>

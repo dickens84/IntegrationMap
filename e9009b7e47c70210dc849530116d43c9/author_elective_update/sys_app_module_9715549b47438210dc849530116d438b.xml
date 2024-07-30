@@ -66,7 +66,7 @@
         <update_guid_history>5f15549bff438210f23dd5feb690948d:1143605903</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Main Tables">77a6d41f47438210dc849530116d43fd</sys_audit_delete>
+        <sys_audit_delete display_value="">77a6d41f47438210dc849530116d43fd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-02 11:35:24</sys_created_on>

@@ -16,7 +16,7 @@
         <search_res_config display_value="Resolved Problems">3d0a959087452300fb3ad61e36cb0ba3</search_res_config>
         <search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource>
         <search_ui_action display_value="This helped">31173286872a0300692cbba826cb0be1</search_ui_action>
-        <search_ui_config display_value="Case [sn_customerservice_case]">c5999c52c312310015519f2974d3aee9</search_ui_config>
+        <search_ui_config display_value="">c5999c52c312310015519f2974d3aee9</search_ui_config>
         <show_on_new>true</show_on_new>
         <sys_class_name>cxs_ui_action_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>

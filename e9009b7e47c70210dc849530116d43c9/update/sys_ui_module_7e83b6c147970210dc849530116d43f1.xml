@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="CConnectnow Integration">5715549b47438210dc849530116d438f</application>
+        <application display_value="IntegrationMap">5715549b47438210dc849530116d438f</application>
         <filter/>
         <name>Components Schemas</name>
         <order/>

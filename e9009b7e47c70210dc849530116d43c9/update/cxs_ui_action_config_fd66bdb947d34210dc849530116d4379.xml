@@ -16,7 +16,7 @@
         <search_res_config/>
         <search_resource display_value="">com.snc.contextual_search.search_resource.PinnedArticleSearchResource</search_resource>
         <search_ui_action display_value="Add link in email">6232fc06772021103ec4557dcd5a9915</search_ui_action>
-        <search_ui_config display_value="Case [sn_customerservice_case]">c5999c52c312310015519f2974d3aee9</search_ui_config>
+        <search_ui_config display_value="">c5999c52c312310015519f2974d3aee9</search_ui_config>
         <show_on_new>false</show_on_new>
         <sys_class_name>cxs_ui_action_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>

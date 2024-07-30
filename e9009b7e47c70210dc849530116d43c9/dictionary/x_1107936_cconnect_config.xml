@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="6af6105f47438210dc849530116d4330" label="Config" max_length="40" name="x_1107936_cconnect_config" type="collection">
         <element label="UserId" max_length="20" name="userid" type="string"/>
-        <element choice="1" label="Grant type" max_length="40" name="grant_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Client Credentials" value="client_credentials"/>
-                <element inactive_on_update="false" label="Password Credentials" value="password"/>
-            </choice>
-        </element>
-        <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
-        <element label="Access Token URL" max_length="100" name="access_token_url" type="string"/>
         <element label="Client ID" max_length="100" name="client_id" type="string"/>
+        <element label="Access Token URL" max_length="100" name="access_token_url" type="string"/>
+        <element label="Base URL" max_length="200" name="base_url" read_only="true" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
         <element choice="1" label="Authentication" mandatory="true" max_length="40" name="authentication" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OAuth2.0" value="OAuth2.0"/>
                 <element inactive_on_update="false" label="Basic" value="Basic"/>
             </choice>
         </element>
+        <element choice="1" label="Grant type" max_length="40" name="grant_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client Credentials" value="client_credentials"/>
+                <element inactive_on_update="false" label="Password Credentials" value="password"/>
+            </choice>
+        </element>
         <element label="Password" max_length="20" name="password" type="password"/>
-        <element label="OpenAPISpec" mandatory="true" max_length="40" name="openapispec" type="file_attachment"/>
-        <element label="Base URL" max_length="200" name="base_url" read_only="true" type="string"/>
-        <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Client Secret" max_length="100" name="client_secret" type="string"/>
+        <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element label="OpenAPISpec" mandatory="true" max_length="40" name="openapispec" type="file_attachment"/>
         <element label="Scope" max_length="100" name="scope" type="string"/>
     </element>
 </database>

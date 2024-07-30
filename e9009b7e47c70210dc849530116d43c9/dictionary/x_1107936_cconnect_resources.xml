@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6109e8d347c38210dc849530116d4321" label="Resources" max_length="40" name="x_1107936_cconnect_resources" type="collection">
-        <element label="Request Body Schema" max_length="200" name="request_body_schema" type="string"/>
-        <element label="HTTP Method" max_length="10" name="http_method" type="string"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Script File" max_length="8000" name="script_file" type="script"/>
-        <element label="Parameters" max_length="40" name="parameters" type="string"/>
-        <element label="Response Body Schema" max_length="200" name="response_body_schema" type="string"/>
-        <element label="Resource path" max_length="200" name="resource_path" type="string"/>
         <element label="Table sys ID" max_length="40" name="table_sys_id" type="string"/>
+        <element label="Request Body Schema" max_length="200" name="request_body_schema" type="string"/>
+        <element label="Parameters" max_length="40" name="parameters" type="string"/>
+        <element label="HTTP Method" max_length="10" name="http_method" type="string"/>
+        <element label="Response Body Schema" max_length="200" name="response_body_schema" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Resource path" max_length="200" name="resource_path" type="string"/>
     </element>
 </database>
