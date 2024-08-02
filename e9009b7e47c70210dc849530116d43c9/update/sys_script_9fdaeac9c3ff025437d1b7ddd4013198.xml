@@ -21,8 +21,8 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Config BR After Insert</name>
-        <order>100</order>
+        <name>Create Table</name>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -31,32 +31,44 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	gs.addInfoMessage('BR After');
-    var ccn = new CConnectNowInt();
-    var fileContent = ccn.getAttachment(current.sys_id);
-    var fileContentObj = ccn.convertJSONtoObject(fileContent);
-    current.setValue('base_url', fileContentObj.servers[0].url);
-    //current.update();
-    ccn.setResources(fileContentObj, current.sys_id);
-	ccn.readAndSetSchema(fileContentObj.components, current.sys_id);
+    gs.addInfoMessage('BR Async Started');
+	var componentRecord = new GlideRecord('x_1107936_cconnect_components_schemas');
+    componentRecord.addQuery('table_sys_id', current.sys_id);
+    componentRecord.orderBy('schema_name');
+    componentRecord.query();
+    var added = new Map();
+    var obj = new global.IntegrationMap();
+    while (componentRecord.next()) {
+        if (!(added.has(componentRecord.schema_name.trim().toLowerCase().slice(0, componentRecord.schema_name.trim().toLowerCase().length - 1)) && componentRecord.schema_name.trim().toLowerCase().slice(-1) == 's')) {
+            added.set(componentRecord.schema_name.trim().toLowerCase(), 'True');
+            var tableName = componentRecord.schema_name + "_" + current.sys_id;
+            var tableSysId = obj.createTable(tableName, componentRecord.schema_name, true, true, true, gs.getCurrentScopeName());
+            var schemaData = componentRecord.properties.trim().split('\n');
+            for (var a in schemaData) {
+                obj.addFieldToTable(tableSysId, tableName, schemaData[a].split(':')[0].toLowerCase(), schemaData[a].split(':')[0], schemaData[a].split(':')[1].trim().toLowerCase());
+            }
+        } else {
+            added.set(componentRecord.schema_name.trim().toLowerCase(), 'False');
+        }
+    }
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 03:28:59</sys_created_on>
+        <sys_created_on>2024-08-02 05:25:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e95e6f5747030210dc849530116d43a0</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_name>Config BR After Insert</sys_name>
+        <sys_id>9fdaeac9c3ff025437d1b7ddd4013198</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Create Table</sys_name>
         <sys_overrides/>
         <sys_package display_value="IntegrationMap" source="x_1107936_cconnect">e9009b7e47c70210dc849530116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="IntegrationMap">e9009b7e47c70210dc849530116d43c9</sys_scope>
-        <sys_update_name>sys_script_e95e6f5747030210dc849530116d43a0</sys_update_name>
+        <sys_update_name>sys_script_9fdaeac9c3ff025437d1b7ddd4013198</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-02 12:10:29</sys_updated_on>
+        <sys_updated_on>2024-08-02 12:19:29</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=e95e6f5747030210dc849530116d43a0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9fdaeac9c3ff025437d1b7ddd4013198"/>
 </record_update>
